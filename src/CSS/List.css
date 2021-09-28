@@ -1,0 +1,76 @@
+.btn{
+    text-align: right;
+    margin: 0 0.6rem 0 0;
+}
+
+.serv{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.servInner{
+  list-style: none;
+  flex: 0 0 30.333333%;
+  margin: 1rem;
+  background: gray;
+  text-align: center;
+}
+
+.topAlign{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.topAlignEle{
+  list-style: none;
+  flex: 0 0 45.333333%;
+}
+
+.minimumHeight{
+    min-height: 20rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color:black;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+  overflow: auto;
+}
+
+.grid-container2 {
+  display: grid;
+  grid-template-columns: 100%;
+  background-color:black;
+  padding: 10px;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color:red;
+  padding: 10px;
+}
+
+.grid-container4 {
+  display: grid;
+  grid-template-columns: auto;
+  background-color:black;
+}
+
+.message-body{
+    background: white;
+    border: 1px solid black;
+}

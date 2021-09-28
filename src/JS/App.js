@@ -7,6 +7,7 @@ function App() {
       <div className="App">
         <header>
           <div className='BorderClass'>Trello</div>
+          <p>Works Perfectly</p>
         </header>
       </div>
       <List />
